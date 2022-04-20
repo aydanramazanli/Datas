@@ -13,7 +13,7 @@ const Main = () => {
   }, []);
 
   return (
-    <div className ="m-auto flex justify-between py-10" style={{width:"80%"}}>
+    <div className ="m-auto flex justify-between py-10" style={{width:"90%"}}>
     <Table datas = {datas}/>
     <Chart datas = {datas} />
     </div>
