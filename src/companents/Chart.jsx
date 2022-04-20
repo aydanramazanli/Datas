@@ -69,9 +69,9 @@ export default function Chart (datas){
   const dataSource = {
     chart: {
       caption: "Statistika son 1 ay ",
-      yaxisname: "Velocity (in mph)",
-      subcaption: "Ən çox satılan məhsul LG TV, En cox satis olunan gun",
-      numbersuffix: " mph",
+      xaxisname: "Satis sayi",
+      subcaption: "Ən çox satılan məhsul LG TV",
+      numbersuffix: " ",
       rotatelabels: "1",
       setadaptiveymin: "1",
       theme: "Candy"
@@ -83,7 +83,7 @@ export default function Chart (datas){
     return (
       <ReactFusioncharts
         type="line"
-        width="50%"
+        width="40%"
         height="400"
         dataFormat="JSON"
         dataSource={dataSource}
